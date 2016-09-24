@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+<div style="background:#eee; border:1px solid #000">
+			<h3>Schedule a walk with us!</h3>
+			<form method="post" action="">
+				<label>Your First Name:
+				<input name="fName" type="text" placeholder="FIRST NAME" required>
+				</label>
+				<br> 
+				<label>Your Last Name:
+				<input name="lName" type="text" placeholder="LAST NAME">
+				</label>
+				<br>
+				<label>Your Address:
+				<input name="adress" type="text" placeholder="123 John Street">
+				</label>
+				<br>
+				<label>Apartment:
+				<input name="apt" type="text" placeholder="apt/ph">
+				</label>
+				<br>
+				<label>Your dog's name:
+				<input name="dname" type="text" placeholder="your dog's name">
+				</label>
+				<br>
+				<label>Your email address:
+				<input name="emailAdr" type="email" placeholder="you@whatever.com" required>
+				</label>
+				<br>
+				<p>Please indicate the date you would like the walk to take place on:</p>
+				<label>Date 
+				<input name="schedule" type="date">
+				</label>
+				<br>
+				<p>Please indicate what your dog(s) needs in this walk- you may check one or more of the following:</p>
+				<label>
+				<input name="cb1" type="checkbox" value="cb1"> Excercise (Jogging or Brisk walking)
+				</label>
+				<br>
+				<label>
+				<input name="cb1" type="checkbox" value="cb2"> Play time (Fetch / Frisbee and other games)
+				</label>
+				<br>
+				<label>
+				<input name="cb1" type="checkbox" value="cb3"> Training (Tricks / sitting / or potty training)
+				</label>
+				
+				<br>
+				<p>Please indicate the amount of time you would like for us to spend with your dog(s):</p>
+				<label>
+					<input name="rd" type="radio" value="rd1"> 20 minutes ($15.00)
+				</label>
+				<br>
+				<label>
+					<input name="rd" type="radio" value="rd2"> 45 minutes ($20.00)
+				</label>
+				<br>
+				<label>
+					<input name="rd" type="radio" value="rd3"> 1 hour and 15 minutes ($25.00)
+				</label>
+				<br>
+				<p>Please indicate the number of dogs you would like to participate in the activities:</p>
+				<label>
+					<select>
+						<option name="groupofoptions" value="o1">1 dog (no extra fee)</option>
+						<option name="groupofoptions" value="o2">2 dogs ($5.00 extra)</option>
+						<option name="groupofoptions" value="o3">3 dogs + ($5.00 for each extra dog)</option>
+					</select>
+				</label>
+				<br>
+				<p>Feel free to give us additional info about your dog and his/her excercise and walking needs:</p>
+				<label>
+					<textarea name="comments"></textarea>
+				</label>
+
+				<br>
+				<label>
+					<input type="reset" value="reset the form">
+				</label>
+				<br>
+				<label>
+					<input name="send" type="submit" value="send info">
+				</label>
+			</form>
+			</div>
+</body>
+</html>
